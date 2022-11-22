@@ -13,8 +13,8 @@ public class QuestionOuverte :Question
    private ReponseOuverte Reponse;
     
 
-   public QuestionOuverte(int IdExamen, string EnnonceQuestion, int NumQuestion) :base(IdExamen,EnnonceQuestion, NumQuestion)
+   public QuestionOuverte(int id, int IdExamen, string EnnonceQuestion, int NumQuestion) 
     {
-        
+        base.Question(id,IdExamen,EnnonceQuestion,NumQuestion);
     }
 }

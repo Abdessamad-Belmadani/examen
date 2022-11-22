@@ -10,12 +10,12 @@ using Question;
 
 public class QuestionQcm : Question
 {
-   private string[]  Propositions;
+   
    private ReponseQcm Reponse;
 
-   public QuestionQcm(string[] Propositions,int IdExamen, string EnnonceQuestion, int NumQuestion) : base(IdExamen, EnnonceQuestion, NumQuestion)
+   public QuestionQcm(int id, int IdExamen, string EnnonceQuestion, int NumQuestion) 
     {
-        this.Propositions = new string[Propositions.L];
+        base.Question(id, IdExamen, EnnonceQuestion, NumQuestion);
     }
     }
 

@@ -7,8 +7,18 @@
 using System;
 using Reponse;
 
-public class ReponseQcm :Reponse
-{
-   private bool array[] Reponse;
+namespace ReponseQcm { 
+public class ReponseQcm :Reponse{
+    private string reponse;
 
-}
+
+   public ReponseQcm(int id, int IdQuestion, string reponse)
+    {
+        base.Reponse(id, IdQuestion);
+        this.reponse = reponse;
+    }
+
+    public string getReponse() { return this.reponse; }
+    public void setReponse(string reponse) { this.reponse = reponse; }
+
+}}
