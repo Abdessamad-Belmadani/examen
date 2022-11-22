@@ -5,6 +5,8 @@
  ***********************************************************************/
 
 using System;
+using Question;
+
 
 public class QuestionYesNo : Question
 {

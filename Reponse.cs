@@ -5,10 +5,13 @@
  ***********************************************************************/
 
 using System;
-
-public abstract class Reponse
+namespace Reponse
 {
-   private int NumQuestion;
-   private int IdExamen;
+    public abstract class Reponse
+    {
+        private int NumQuestion;
+        private int IdExamen;
 
+    }
 }
+
